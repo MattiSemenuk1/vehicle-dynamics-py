@@ -5,6 +5,5 @@ Model can be run with few commands, such as:
 - uv run pytest
 - uv run python examples/step_steer.py
 
-[Step steer response:
-trajectory, speed and yaw rate]
-(docs/step_steer.gif)
+![Step steer response:
+trajectory, speed and yaw rate](docs/step_steer.gif)
