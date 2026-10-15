@@ -1,7 +1,7 @@
 [project]
 name = "vehicle-dynamics-py"
 version = "0.1.0"
-description = "Add your description here"
+description = "Creating simple bicycle model as test and memory refreshment"
 readme = "README.md"
 authors = [
     { email = "matti.semenuk@semaq.fi" }
@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "matplotlib>=3.11.2",
     "numpy>=2.5.4",
+    "pillow>=12.3.0",
     "scipy>=1.18.1",
 ]
 
