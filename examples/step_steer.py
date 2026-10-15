@@ -10,5 +10,5 @@ model = BicycleModel(VehicleParams())
 sol = model.simulate(vx=vx, delta=0.02, t_end=10.0)
 
 viz = VehicleAnimator(sol, vx=vx)
-viz.animate()    # trajectory on top, speed and yaw rate below
+viz.animate("docs/step_steer.gif")    # trajectory on top, speed and yaw rate below
 plt.show()

@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Creating simple bicycle model as test and memory refreshment"
 readme = "README.md"
 authors = [
-    { email = "matti.semenuk@semaq.fi" }
+    { email = "first.last@semaq.fi" }
 ]
 requires-python = ">=3.12"
 dependencies = [
