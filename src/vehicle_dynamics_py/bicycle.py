@@ -20,7 +20,6 @@ class BicycleModel:
         Y_dot = vx * np.sin(psi) + vy * np.cos(psi)
         return np.array([vy_dot, r_dot, psi_dot, X_dot, Y_dot])
     
-        return np.array([vy_dot, r_dot])
 
     def understeer_gradient(self) -> float:
         K = self.p.m / self.p.L * (self.p.b / self.p.Cf - self.p.a / self.p.Cr)  # K from self.p
